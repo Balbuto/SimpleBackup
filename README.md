@@ -43,17 +43,18 @@ Telegram Bot Token & Chat ID.
 Откройте файл backup.conf любым текстовым редактором:
 
 Telegram
-TG_TOKEN="123456789:ABCDef..." # Токен от @BotFather
-TG_CHAT_ID="987654321"         # Ваш ID (можно узнать у @userinfobot)
+### TG_TOKEN="123456789:ABCDef..." # Токен от @BotFather
+
+### TG_CHAT_ID="987654321"         # Ваш ID (можно узнать у @userinfobot)
 
 Email
-ADMIN_EMAIL="admin@example.com"
+### ADMIN_EMAIL="admin@example.com"
 
 Уведомления: 1-TG, 2-Email, 3-Оба, 4-Тихий режим
-DEFAULT_NOTIFY_MODE="3"
+### DEFAULT_NOTIFY_MODE="3"
 
 Путь для сохранения бэкапов по умолчанию
-DEFAULT_BACKUP_DEST="/var/backups/projects"
+### DEFAULT_BACKUP_DEST="/var/backups/projects"
 
 
 ## 🛠️ Использование
