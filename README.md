@@ -78,4 +78,4 @@ DEFAULT_BACKUP_DEST="/var/backups/projects"
 ## ⚠️ Безопасность
 Файл backup.conf содержит чувствительные данные (токены). Рекомендуется ограничить доступ к нему:
 
-chmod 600 backup.conf
+### chmod 600 backup.conf
