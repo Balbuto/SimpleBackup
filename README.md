@@ -73,6 +73,7 @@ DEFAULT_BACKUP_DEST="/var/backups/projects"
 1. Откройте редактор: sudo crontab -e
 2. Добавьте строку (скрипт будет использовать настройки из .conf):
    0 2 * * * /path/to/SimpleBackup/simple_backup.sh --auto >> /var/log/simple_backup.log 2>&1
+   
 (Примечание: для полной автоматизации без участия пользователя убедитесь, что в .env или .conf прописаны все пути).
 
 ## ⚠️ Безопасность
